@@ -1,0 +1,31 @@
+[//]:
+[//]:<div class="news">
+[//]:    <h3><a href="biweekly_three">Biweekly #8</a></h3>
+[//]:    <p>
+[//]:        <b>September 9th to September 22th</b>
+[//]:    </p>
+[//]:    <p class="description">
+[//]:        Take a look at the <a href="biweekly_five">News</a>
+[//]:    </p>
+[//]:</div>
+
+[//]:
+[//]:<div class="news">
+[//]:    <h3><a href="biweekly_three">Biweekly #7</a></h3>
+[//]:    <p>
+[//]:        <b>August 26th to September 8th</b>
+[//]:    </p>
+[//]:    <p class="description">
+[//]:        Take a look at the <a href="biweekly_five">News</a>
+[//]:    </p>
+[//]:</div>
+
+[//]:<div class="news">
+[//]:    <h3><a href="biweekly_six">Biweekly #6</a></h3>
+[//]:    <p>
+[//]:        <b>August 12th to August 25th</b>
+[//]:   </p>
+[//]:   <p class="description">
+[//]:        Take a look at the <a href="biweekly_six">News</a>
+[//]:    </p>
+[//]:</div> 

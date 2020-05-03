@@ -1,0 +1,94 @@
+@media only screen and (max-device-width : 800px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .greeting {
+        font-size: 1.3em;
+    }
+
+    a.reference {
+        text-align: center;
+        font-size: small;
+    }
+
+    .cat-container {
+        font-size: 1em;
+    }
+
+    .cat-icon {
+        margin: 10px 0 0 0;  
+        text-align: center;
+    }
+
+    .fl-left {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    p.description {
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+    
+    .news .description {
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
+    
+    .news .content {
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    .grid-container > div {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .row.intro p {
+        font-size: 0.8em;
+    }
+    
+    
+    .avatar {
+        padding: 0 0 5% 15%;
+        margin-botton: 50%;
+        display: block;
+        float: clear;
+    }
+
+    .avatar a {
+        margin-botton: 10%;
+        text-align: center;
+        display: block;
+        float: clear;
+    }
+
+    .avatar img {
+        vertical-align: middle;
+        border-radius: 50%;
+        display: block;
+        float: clear;
+    }
+    
+}
+
+@media only screen and (min-width: 801px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .cat-icon {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .cat-container {
+    width: 30%;
+    font-size: 1em;
+  }
+  
+}

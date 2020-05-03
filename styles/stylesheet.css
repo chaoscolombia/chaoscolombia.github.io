@@ -1,0 +1,156 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: 'Cutive Mono';
+    width: 80%;
+    margin: 0 10%;
+}
+
+body a {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: main; }
+.item3 { grid-area: footer; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header header header'
+    'main main main main main'
+    'footer footer footer footer footer';
+    margin-top: 15px;
+    grid-gap: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.grid-container > div {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.grid-container a {
+    color: #20001b;
+}
+
+a.reference {
+    text-align: center;
+    font-size: small;
+}
+
+p.important {
+    margin: 0px;
+}
+
+
+p.description {
+    margin: 10px 0 0 0;
+    text-align: justify;
+}
+
+a:hover {
+    font-weight: 800;
+    color: blue;
+}
+
+.box li {
+    display: inline-block;
+    width: 23%;
+    box-sizing: border-box;
+}
+
+.box li img {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 150px;
+    min-width: 75px;
+}
+
+.row:nth-child(even) {
+    display: block;
+    color: #51E064;
+}
+
+.row a {
+    color: #0a003a;
+}
+
+.row a:hover {
+    color: #80001b;
+}
+
+h2 a:hover {
+    color: #80001b;
+}
+
+.row {
+    float: left;
+    display: block;
+    width: 100%;
+    color: #0a003a;
+    box-sizing: border-box;
+    padding: 0em 3em;
+    min-height: 12em;
+}
+
+.row ul li {
+    min-width: 5em;
+}
+
+.fl-left {
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+.cat-container {
+    font-size: 10px;
+}
+
+.cat-icon {
+    width: 100%;
+    max-width: 800px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+hr {
+    border-style: dotted;
+    border-width: 0px 0px 1px 0px;
+}
+
+td {
+    font-size: 0.8em;
+    border-bottom: 1px dotted grey;
+    padding-bottom: 10px;
+}

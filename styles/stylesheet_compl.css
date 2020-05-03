@@ -1,0 +1,43 @@
+/* Avatar */
+.container {
+    margin: 0 10%;
+}
+
+.avatar {
+    float: left;
+    margin-left: 9%;
+}
+
+.avatar img {
+    max-width: 130px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+/* News */
+.news {
+    text-align: left;
+    padding: 0px 0px 20px 0px;
+    display: block;
+}
+
+.news .icon {
+    width:20px;
+}
+
+.news h3 {
+    color: #80001b;
+}
+
+.news .description {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.news .content {
+    font-size: 0.8em;
+}
+
+.mini {
+    width:30px;
+}
